@@ -1,16 +1,164 @@
 # yutu.github.io.
 <!DOCTYPE html>
 <html lang="en" >
+
 <head>
+
   <meta charset="UTF-8">
+  
+<link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png" />
+<meta name="apple-mobile-web-app-title" content="CodePen">
+
+<link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" />
+
+<link rel="mask-icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111" />
+
+
   <title>CodePen - A Pen by 王語彤</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
-<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'><link rel="stylesheet" href="./style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+  
+<style>
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+}
+
+body {
+  height: 1000px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: bold;
+}
+
+nav.navbar {
+  transition: 0.5s;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top {
+  background-color: transparent;
+}
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a {
+  color: white;
+  transition: 0.5s;
+}
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a:hover {
+  color: #F4D35E;
+}
+
+header.jumbotron {
+  text-align: center;
+  background-image: url(https://i.imgur.com/srHdDe5.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+}
+header.jumbotron .container {
+  color: white;
+  padding: 200px 0px;
+}
+header.jumbotron hr {
+  max-width: 50px;
+  border: solid 2px #F4D35E;
+}
+header.jumbotron h4 {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: normal;
+}
+
+section {
+  padding: 50px 0px;
+}
+
+section#section_ask {
+  background-color: #F4D35E;
+}
+section#section_ask .col-sm-5.img {
+  background-image: url(https://i1.wp.com/www.mycaddownload.com/wp-content/uploads/2020/08/cad-01-15.jpg?fit=1084%2C767&ssl=1);
+  height: 350px;
+  mix-blend-mode: multiply;
+}
+section#section_ask h2 {
+  margin-top: 130px;
+  padding: 0px 20px;
+}
+
+section#section_about img {
+  width: 130%;
+}
+section#section_about .img_wrap {
+  height: 220px;
+  overflow: hidden;
+}
+
+section#section_story {
+  background-color: #222;
+  color: white;
+  padding: 0;
+}
+section#section_story .col-sm-5 {
+  background-image: url(https://i.pinimg.com/564x/a7/66/a3/a766a3e0b464b33987afe8d406139ff0.jpg);
+  background-size: 100% auto;
+  height: 400px;
+}
+section#section_story .col-sm-7 {
+  text-align: center;
+}
+section#section_story .col-sm-7 i {
+  font-size: 40px;
+}
+section#section_story .col-sm-12.features {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+section#section_future img {
+  width: 100%;
+}
+section#section_future i {
+  font-size: 30px;
+}
+section#section_future .feature {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+footer.jumbotron {
+  text-align: center;
+  background-image: url(https://i.imgur.com/srHdDe5.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+}
+footer.jumbotron input {
+  background-color: transparent;
+  max-width: 350px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer.jumbotron .container {
+  color: white;
+  padding: 60px 0px;
+}
+footer.jumbotron hr {
+  max-width: 50px;
+  border: solid 2px #F4D35E;
+}
+</style>
+
+  
+  
+  
+  
 
 </head>
-<body>
-<!-- partial:index.partial.html -->
-<nav class="navbar navbar-default navbar-fixed-top navbar-top">
+
+<body translate="no" >
+  <nav class="navbar navbar-default navbar-fixed-top navbar-top">
   <div class="container">
     <div class="navbar-header"><a class="navbar-brand">PRINT</a></div>
     <div class="navbar-collapse collapse">
@@ -117,10 +265,23 @@
     <button class="btn btn-default">訂閱故事</button>
   </div>
 </footer>
-<!-- partial -->
+  
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js'></script><script  src="./script.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js'></script>
+      <script id="rendered-js" >
+$(window).scroll(function(evt){
+  if ($(window).scrollTop()>0)
+    $(".navbar").removeClass("navbar-top");
+  else
+      $(".navbar").addClass("navbar-top");
+});
+
+var s = skrollr.init();
+    </script>
+
+  
 
 </body>
+
 </html>
